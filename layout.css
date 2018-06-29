@@ -5,7 +5,7 @@ html{
   display: grid;
   /* grid-template: auto auto / repeat(3,400px); */
   grid-template-rows: auto auto;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 400px 400px;
   grid-gap: 15px;
 
 }
@@ -15,7 +15,7 @@ div.image-grid {
 }
 
 .image-grid div img {
-  max-width: 600px;
+  max-width: 400px;
   height: auto;
 }
 
